@@ -90,10 +90,7 @@ h1 {
 /*container just for portafolio page*/
 #PortafolioContainer {
      background-color: lightgrey;
-    /*width: 93%;
-    margin-top: 80px;
-    margin-left: 0;
-    margin-bottom: 50px; */
+     margin-bottom: 50px;
 }
 
 /*info container for contact and about me page*/
@@ -101,6 +98,7 @@ h1 {
    
     background-color: lightgrey;
     padding: 25px;
+    margin-bottom: 50px;
    
 }
 
