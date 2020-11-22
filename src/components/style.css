@@ -1,0 +1,251 @@
+#project1 :hover,
+#weather :hover,
+#dayplanner :hover,
+#thequiz :hover,
+#memory:hover {
+    opacity: 0.65;
+}
+
+#profileLinks {
+    font-weight: bold;
+    border: 1px solid #0062cc;
+    width: 350px;
+    padding: 5px;
+}
+/*backgorund img*/
+body {
+    background-color: ghostwhite;
+  
+}
+
+a{
+    font-size: large;
+}
+
+/*row to separete  info*/
+.row {
+    margin-left: 0;
+}
+
+/*big container of the webpage*/
+#MainContainer {
+     max-width: 95%; 
+}
+
+/*h1 header*/
+#h1container {
+    margin-right: 0;
+    padding-right: 0;
+    background-color: lightgrey;
+}
+
+h1 {
+    background-color: #0062cc;
+    color: ghostwhite;
+    list-style-type: none;
+    text-align: center;
+    height: 100%;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titletext{
+    background: teal;
+    color: white;
+    text-align: center;
+}
+
+.col-md-12 {
+    padding-left: 0;
+}
+
+/*Navigation bar with the 3 pages links*/
+#navbar {
+    background-color: lightgrey;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+    float: right;
+}
+
+.nav-link {
+    display: block;
+    color: #454545;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #0062cc;
+    color: ghostwhite;
+}
+
+/*container just for portafolio page*/
+#PortafolioContainer {
+     background-color: lightgrey;
+    /*width: 93%;
+    margin-top: 80px;
+    margin-left: 0;
+    margin-bottom: 50px; */
+}
+
+/*info container for contact and about me page*/
+#InfoContainer {
+   
+    background-color: lightgrey;
+    padding: 25px;
+   
+}
+
+/*h2 header for all 3 pages*/
+#h2aboutme {
+    color: teal;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*line devider of h2*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border: 1px solid #0062cc;
+    border-radius: 1px;
+}
+
+/*image about my self*/
+#aboutmeImage {
+    padding: 0;
+    max-width: fit-content;
+}
+
+/*all the text int the info section*/
+#aboutmetext {
+    color: #454545;
+    font-size: medium;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgAboutme {
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.portafolioImage {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+/*h3 header for the images*/
+h3 {
+    background-color: #0062cc;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    color: cornsilk;
+    position: relative;
+    bottom: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*footer of the webpage*/
+#sticky-footer {
+    flex-shrink: none;
+    background-color: lightgrey;
+    color: 454545;
+    position: absolute;
+    min-width: 100%;
+}
+
+/*media Sizes for different screens*/
+@media only screen and (max-width: 1150px) {
+    #aboutmetext {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .portafolioImage {
+        width: 250px;
+        height: 166px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        bottom: 70px;
+        width: 250px;
+        height: 35px;
+        font-size: larger;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #project1,
+    #weather,
+    #dayplanner,
+    #thequiz,
+    #RockPaperScissors {
+        max-width: fit-content;
+    }
+
+    #InfoContainer {
+        width: 90%;
+    }
+
+    .portafolioImage {
+        width: 250px;
+        height: 166px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        bottom: 70px;
+        width: 250px;
+        height: 35px;
+        font-size: larger;
+    }
+
+    #rowPortafolio {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #navbar {
+        min-width: 100%;
+    }
+
+    #h1container {
+        min-width: 100%;
+    }
+
+    #InfoContainer {
+        width: 100%;
+    }
+
+    #rowPortafolio {
+        padding-left: 50px;
+    }
+    #PortafolioContainer {
+        width: 100%;
+    }
+}
